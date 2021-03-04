@@ -1,0 +1,42 @@
+[debug] [2020-12-08T19:48:33.157Z] ----------------------------------------------------------------------
+[debug] [2020-12-08T19:48:33.159Z] Command:       /usr/local/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2020-12-08T19:48:33.160Z] CLI Version:   8.12.1
+[debug] [2020-12-08T19:48:33.160Z] Platform:      darwin
+[debug] [2020-12-08T19:48:33.160Z] Node Version:  v12.18.2
+[debug] [2020-12-08T19:48:33.162Z] Time:          Tue Dec 08 2020 16:48:33 GMT-0300 (GMT-03:00)
+[debug] [2020-12-08T19:48:33.162Z] ----------------------------------------------------------------------
+[debug] [2020-12-08T19:48:33.162Z] 
+[debug] [2020-12-08T19:48:33.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-08T19:48:33.171Z] > authorizing via signed-in user
+[debug] [2020-12-08T19:48:33.171Z] [iam] checking project vera-moreno for permissions ["firebase.projects.get"]
+[debug] [2020-12-08T19:48:33.175Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vera-moreno:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-12-08T19:48:38.358Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 08 Dec 2020 19:48:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=779","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "10" doesn't match your global version "12" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"12\""}}
+[debug] [2020-12-08T19:48:38.381Z] defaultcredentials: writing to file /Users/alanmartins/.config/firebase/veramorenoapp_gmail_com_application_default_credentials.json
+[debug] [2020-12-08T19:48:38.383Z] DEBUG: Setting GAC to /Users/alanmartins/.config/firebase/veramorenoapp_gmail_com_application_default_credentials.json
+[debug] [2020-12-08T19:48:38.396Z] [functions] Watching "/Users/alanmartins/Documents/sendEmail/functions" for Cloud Functions...
+[debug] [2020-12-08T19:48:38.415Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-12-08T19:48:38.415Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-12-08T19:48:38.416Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-12-08T19:48:38.416Z] DEBUG: [worker-~diagnostic~-28f8c714-69b2-4c2d-9cc0-3775a97b62b4]: Assigning socketPath: /var/folders/hj/bhrwx21s35s93zh_v958rmpc0000gn/T/fire_emu_2005.sock
+[debug] [2020-12-08T19:48:38.417Z] DEBUG: [worker-~diagnostic~-28f8c714-69b2-4c2d-9cc0-3775a97b62b4]: BUSY
+[debug] [2020-12-08T19:48:38.855Z] DEBUG: [runtime-status] [2005] Functions runtime initialized. {"cwd":"/Users/alanmartins/Documents/sendEmail/functions","node_version":"12.18.2"}
+[debug] [2020-12-08T19:48:38.856Z] DEBUG: [runtime-status] [2005] Disabled runtime features: undefined
+[debug] [2020-12-08T19:48:38.859Z] DEBUG: [runtime-status] [2005] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-12-08T19:48:38.860Z] DEBUG: [runtime-status] [2005] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-08T19:48:38.861Z] DEBUG: [runtime-status] [2005] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-08T19:48:38.864Z] DEBUG: [runtime-status] [2005] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-12-08T19:48:38.864Z] DEBUG: [runtime-status] [2005] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-08T19:48:38.911Z] DEBUG: [runtime-status] [2005] Checked functions.config() {"config":{}}
+[debug] [2020-12-08T19:48:38.912Z] DEBUG: [runtime-status] [2005] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2020-12-08T19:48:38.912Z] DEBUG: [runtime-status] [2005] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-08T19:48:38.913Z] DEBUG: [runtime-status] [2005] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2020-12-08T19:48:38.914Z] DEBUG: [runtime-status] [2005] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2020-12-08T19:48:38.914Z] DEBUG: [runtime-status] [2005] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"/Users/alanmartins/Documents/sendEmail/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2020-12-08T19:48:39.167Z] DEBUG: [runtime-status] [2005] initializeApp(DEFAULT) {"databaseURL":"https://vera-moreno.firebaseio.com","storageBucket":"vera-moreno.appspot.com","projectId":"vera-moreno"}
+[debug] [2020-12-08T19:48:39.172Z] [functions[sendMail]] http function initialized (http://localhost:5000/vera-moreno/us-central1/sendMail).
+[debug] [2020-12-08T19:48:39.173Z] [functions[scheduledFunction]] function ignored because the pubsub emulator does not exist or is not running.
+[info] i  functions: Loaded functions: sendMail, scheduledFunction 
+[warn] ⚠  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub 
+[debug] [2020-12-08T19:48:39.186Z] DEBUG: [worker-~diagnostic~-28f8c714-69b2-4c2d-9cc0-3775a97b62b4]: IDLE
